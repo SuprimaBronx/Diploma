@@ -1,5 +1,8 @@
 import cv2
 import uuid
+import time
+from ExtractBiometric.VideoProcessing import VideoProcessing
+
 
 
 # -----------------------------------------------------------------#
@@ -12,7 +15,7 @@ import uuid
 # -----------------------------------------------------------------#
 
 def cap_n_write(record_time):
-    DIMENSION = (800, 600)
+    DIMENSION = (128, 96)
     FPS = 30
     SLIDE_TIME_WINDOW = 10
 
@@ -35,7 +38,7 @@ def cap_n_write(record_time):
                 output_video_file.write(resized_frame)
                 local_frame_counter += 1
             else:
-                print('error') # вывод ошибки видеокамеры пользовтелю
+                print('error')  # вывод ошибки видеокамеры пользовтелю
                 break
 
         output_video_file.release()
@@ -43,7 +46,8 @@ def cap_n_write(record_time):
         # вызов нейросетевой обработки с передачей параметров : filename, DIMENSION,~(FPS)
         # если глобальный ответ по списыванию или/и !аутентификации положительный - передача в мейн
         # удаление мусора
-        # необходимо: реализовать асинхронную работу вызываемых функций для оптимизации
+        # необходимо: реализовать параллельную работу вызываемых функций для оптимизации
+        result_biometric_processing = VideoProcessing(filename,DIMENSION,FPS).video_processing_start()
 
 
 
@@ -51,5 +55,4 @@ def cap_n_write(record_time):
 
 
     capture_video_stream.release()
-
 
