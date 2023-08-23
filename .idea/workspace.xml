@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283df710-28e4-4c76-863f-c559f865ba4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Diploma.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Diploma.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Ikit/Projects/Diploma&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Ikit/9 semestr/Cryptographic Protocols",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.VideoProcessing">
     <configuration name="code.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Diploma/code.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -174,7 +172,9 @@
       <workItem from="1676553446282" duration="6562000" />
       <workItem from="1676562365829" duration="1897000" />
       <workItem from="1676565815952" duration="3970000" />
-      <workItem from="1677155545983" duration="413000" />
+      <workItem from="1677155545983" duration="818000" />
+      <workItem from="1677501201334" duration="366000" />
+      <workItem from="1678030259364" duration="18000" />
     </task>
     <servers />
   </component>
